@@ -16,6 +16,6 @@ and double sash windows.
 
 *Note: For individual sub-component details, please check the specific license files inside the mod subfolders.*
 
-![Over Door Windows](screenshots/shot_01.png)
+![Over Door Windows](shot_01.png)
 
-![Double Sash Windows](screenshots/shot_02.png)
+![Double Sash Windows](shot_02.png)
