@@ -11,13 +11,6 @@ A small, lightweight mod for Minetest Game that adds matching over-door windows 
   - Obsidian Glass Door
   - Steel Door (covers both solid steel and steel/glass variants)
 
-## Installation
-
-1. Download the mod and extract it.
-2. Rename the folder to `odw`.
-3. Move the folder into your Minetest `mods/` directory.
-4. Enable the mod in your world configuration.
-
 ## License
 
 - **Code**: MIT License (c) 2015-2026 TumeniNodes
