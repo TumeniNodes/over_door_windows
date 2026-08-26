@@ -3,12 +3,14 @@ dsw = {}
 ----------------------------
 -- Closed Double Sash Window
 ----------------------------
-function dsw.register_window(subname, wood_texture, glass_texture, desc_prefix)
+function dsw.register_window(subname, wood_texture, glass_texture, desc_prefix, inv_img)
 	minetest.register_node("dsw:sash_window_" .. subname, {
 		description = desc_prefix .. " Double Sash Window",
 		drawtype = "mesh",
 		mesh = "dsw_window.obj",
 		tiles = {wood_texture, glass_texture},
+		inventory_image = inv_img,
+		wield_image = inv_img,
 		use_texture_alpha = "clip",
 		paramtype = "light",
 		paramtype2 = "facedir",
@@ -100,30 +102,30 @@ end
 -- Materials
 ------------
 
-dsw.register_window("acacia_wood", "dsw_acacia_wood_sash.png", "dsw_acacia_wood_sash.png", "Acacia Wood")
+dsw.register_window("acacia_wood", "dsw_acacia_wood_sash.png", "dsw_acacia_wood_sash.png", "Acacia Wood", "lsw_acacia_inv.png")
 dsw.register_window_half("acacia_wood", "dsw_acacia_wood_sash.png", "dsw_acacia_wood_sash.png", "Acacia Wood")
 dsw.register_window_open("acacia_wood", "dsw_acacia_wood_sash.png", "dsw_acacia_wood_sash.png", "Acacia Wood")
 
-dsw.register_window("aspen_wood", "dsw_aspen_wood_sash.png", "dsw_aspen_wood_sash.png", "Aspen Wood")
+dsw.register_window("aspen_wood", "dsw_aspen_wood_sash.png", "dsw_aspen_wood_sash.png", "Aspen Wood", "lsw_aspen_inv.png")
 dsw.register_window_half("aspen_wood", "dsw_aspen_wood_sash.png", "dsw_aspen_wood_sash.png", "Aspen Wood")
 dsw.register_window_open("aspen_wood", "dsw_aspen_wood_sash.png", "dsw_aspen_wood_sash.png", "Aspen Wood")
 
-dsw.register_window("junglewood", "dsw_junglewood_sash.png", "dsw_junglewood_sash.png", "Junglewood")
+dsw.register_window("junglewood", "dsw_junglewood_sash.png", "dsw_junglewood_sash.png", "Junglewood", "lsw_junglewood_inv.png")
 dsw.register_window_half("junglewood", "dsw_junglewood_sash.png", "dsw_junglewood_sash.png", "Junglewood")
 dsw.register_window_open("junglewood", "dsw_junglewood_sash.png", "dsw_junglewood_sash.png", "Junglewood")
 
-dsw.register_window("pine_wood", "dsw_pine_wood_sash.png", "dsw_pine_wood_sash.png", "Pine Wood")
+dsw.register_window("pine_wood", "dsw_pine_wood_sash.png", "dsw_pine_wood_sash.png", "Pine Wood", "lsw_pine_inv.png")
 dsw.register_window_half("pine_wood", "dsw_pine_wood_sash.png", "dsw_pine_wood_sash.png", "Pine Wood")
 dsw.register_window_open("pine_wood", "dsw_pine_wood_sash.png", "dsw_pine_wood_sash.png", "Pine Wood")
 
-dsw.register_window("wood", "dsw_wood_sash.png", "dsw_wood_sash.png", "Wood")
+dsw.register_window("wood", "dsw_wood_sash.png", "dsw_wood_sash.png", "Wood", "lsw_wood_inv.png")
 dsw.register_window_half("wood", "dsw_wood_sash.png", "dsw_wood_sash.png", "Wood")
 dsw.register_window_open("wood", "dsw_wood_sash.png", "dsw_wood_sash.png", "Wood")
 
-dsw.register_window("default_obsidian", "dsw_obsidian_sash.png", "dsw_obsidian_sash.png", "Default Obsidian")
+dsw.register_window("default_obsidian", "dsw_obsidian_sash.png", "dsw_obsidian_sash.png", "Default Obsidian", "lsw_obsidian_inv.png")
 dsw.register_window_half("default_obsidian", "dsw_obsidian_sash.png", "dsw_obsidian_sash.png", "Default Obsidian")
 dsw.register_window_open("default_obsidian", "dsw_obsidian_sash.png", "dsw_obsidian_sash.png", "Default Obsidian")
 
-dsw.register_window("default_steel", "dsw_steel_sash.png", "dsw_steel_sash.png", "Default Steel")
+dsw.register_window("default_steel", "dsw_steel_sash.png", "dsw_steel_sash.png", "Default Steel", "lsw_steel_inv.png")
 dsw.register_window_half("default_steel", "dsw_steel_sash.png", "dsw_steel_sash.png", "Default Steel")
 dsw.register_window_open("default_steel", "dsw_steel_sash.png", "dsw_steel_sash.png", "Default Steel")

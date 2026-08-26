@@ -37,6 +37,13 @@ Textures:
 - lsw_pine_wood.png
 - lsw_steel.png
 - lsw_wood.png
+- lsw_acacia_low_inv.png
+- lsw_aspen_low_inv.png
+- lsw_junglewood_low_inv.png
+- lsw_obsidian_low_inv.png
+- lsw_pine_low_inv.png
+- lsw_steel_low_inv.png
+- lsw_wood_low_inv.png
 
 Models & Source Files:
 - lsw_half.obj

@@ -37,6 +37,13 @@ Textures:
 - dsw_pine_wood_sash.png
 - dsw_steel_sash.png
 - dsw_wood_sash.png
+- lsw_acacia_inv.png
+- lsw_aspen_inv.png
+- lsw_junglewood_inv.png
+- lsw_obsidian_inv.png
+- lsw_pine_inv.png
+- lsw_steel_inv.png
+- lsw_wood_inv.png
 
 Models & Source Files:
 - dsw_half.obj
